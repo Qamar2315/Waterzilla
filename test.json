@@ -1,0 +1,27 @@
+{
+    "title":"Welcome Post",
+    "creation_time":"today",
+    "description":"this is my first post",
+    "URL":"www.googe.com",
+    "tags":[
+        "fist post",
+        "welcome",
+        "new post"
+    ],
+    "blogger_name":"Adam smith",
+    "likes":100,
+    "comments":[
+        {
+            "name":"noor",
+            "c_text":"welcome boss",
+            "date":"today",
+            "likes":100
+        },
+        {
+            "name":"qamar",
+            "c_text":"welcome",
+            "date":"today",
+            "likes":10000
+        }
+    ]
+}
