@@ -4,8 +4,8 @@ const db= require("./models");
 const cors= require("cors");
 const admin= require('./routes/Admin');
 const waterbottle= require('./routes/Waterbottle');
-const company=require('./routes/Company')
-const pages=require('./routes/Pages')
+const company=require('./routes/Company');
+const pages=require('./routes/Pages');
 const notifications=require('./routes/Notifications')
 const orders=require('./routes/Orders')
 const customers=require('./routes/Customers')
@@ -27,7 +27,6 @@ app.use('/admin/dashboard/notifications',notifications);
 app.use('/admin/dashboard/orders',orders);
 app.use('/admin/dashboard/customers',customers);
 app.use('/admin/dashboard/reports',reports);
-
 
 db.sequelize.sync().then(()=>{
     app.listen(8080, ()=>{
