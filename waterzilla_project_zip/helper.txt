@@ -1,0 +1,35 @@
+<main class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]">
+	<h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+	<div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
+		Page Not Found
+	</div>
+	<button class="mt-5">
+      <a
+        class="relative inline-block text-sm font-medium text-[#FF6A3D] group active:text-orange-500 focus:outline-none focus:ring"
+      >
+        <span
+          class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#FF6A3D] group-hover:translate-y-0 group-hover:translate-x-0"
+        ></span>
+
+        <span class="relative block px-8 py-3 bg-[#1A2238] border border-current">
+          <router-link to="/">Go Home</router-link>
+        </span>
+      </a>
+    </button>
+</main>
+https://www.youtube.com/watch?v=YOGgaYUW1OA
+1.5 liter, 1 liter, 500 ml, 300 ml 
+
+<div className='fixed left-0 bottom-0 ml-5 mb-5'>
+                    <label htmlFor="my-modal" className="btn">view cart</label>
+                    <input type="checkbox" id="my-modal" className="modal-toggle" />
+                    <div className="modal">
+                        <div className="modal-box">
+                            <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
+                            <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+                            <div className="modal-action">
+                                <label htmlFor="my-modal" className="btn">Yay!</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
